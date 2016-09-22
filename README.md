@@ -1,6 +1,8 @@
 # webdriving
 WebDriver examples
 
-Run FacebookLogin example with
+Run MYCSUMB iLearn Login example with
 
-mvn compile exec:java -Dfblogin.test.email=... -Dfblogin.test.password=... -Dexec.mainClass=edu.csumb.cst438fa16.webdriving.FacebookLogin
+export password=password here
+
+mvn compile exec:java -Duser=usernamehere -Dpass=$password -Dexec.mainClass=edu.csumb.cst438fa16.webdriving.MyCSUMBEDU
